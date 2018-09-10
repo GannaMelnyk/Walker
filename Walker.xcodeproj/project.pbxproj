@@ -12,6 +12,10 @@
 		C2E3A8252142AEDE009677E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2E3A8232142AEDE009677E1 /* Main.storyboard */; };
 		C2E3A8272142AEDF009677E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2E3A8262142AEDF009677E1 /* Assets.xcassets */; };
 		C2E3A82A2142AEDF009677E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2E3A8282142AEDF009677E1 /* LaunchScreen.storyboard */; };
+		C2E3A8322146561A009677E1 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E3A8312146561A009677E1 /* MapVC.swift */; };
+		C2E3A834214667CF009677E1 /* JsonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E3A833214667CF009677E1 /* JsonVC.swift */; };
+		C2E3A83621467C13009677E1 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E3A83521467C13009677E1 /* Task.swift */; };
+		C2E3A83821469720009677E1 /* JsonHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E3A83721469720009677E1 /* JsonHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		C2E3A8262142AEDF009677E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2E3A8292142AEDF009677E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2E3A82B2142AEDF009677E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2E3A8312146561A009677E1 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		C2E3A833214667CF009677E1 /* JsonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonVC.swift; sourceTree = "<group>"; };
+		C2E3A83521467C13009677E1 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		C2E3A83721469720009677E1 /* JsonHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +64,13 @@
 			children = (
 				C2E3A81F2142AEDE009677E1 /* AppDelegate.swift */,
 				C2E3A8212142AEDE009677E1 /* ViewController.swift */,
+				C2E3A8312146561A009677E1 /* MapVC.swift */,
 				C2E3A8232142AEDE009677E1 /* Main.storyboard */,
+				C2E3A833214667CF009677E1 /* JsonVC.swift */,
 				C2E3A8262142AEDF009677E1 /* Assets.xcassets */,
 				C2E3A8282142AEDF009677E1 /* LaunchScreen.storyboard */,
+				C2E3A83721469720009677E1 /* JsonHandler.swift */,
+				C2E3A83521467C13009677E1 /* Task.swift */,
 				C2E3A82B2142AEDF009677E1 /* Info.plist */,
 			);
 			path = Walker;
@@ -136,6 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2E3A8222142AEDE009677E1 /* ViewController.swift in Sources */,
+				C2E3A8322146561A009677E1 /* MapVC.swift in Sources */,
+				C2E3A83621467C13009677E1 /* Task.swift in Sources */,
+				C2E3A834214667CF009677E1 /* JsonVC.swift in Sources */,
+				C2E3A83821469720009677E1 /* JsonHandler.swift in Sources */,
 				C2E3A8202142AEDE009677E1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
